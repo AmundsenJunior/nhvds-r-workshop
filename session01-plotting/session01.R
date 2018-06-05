@@ -72,7 +72,7 @@ library(tidyverse)
 # dataset: HR Employee Attrition and Performance
 # https://www.ibm.com/communities/analytics/watson-analytics-blog/hr-employee-attrition/
 library(readxl)
-employees_data <- read_excel("~/dev/r/nhvds-r-workshop/WA_Fn-UseC_-HR-Employee-Attrition.xlsx")
+employees_data <- read_excel("~/dev/r/nhvds-r-workshop/session01-plotting/WA_Fn-UseC_-HR-Employee-Attrition.xlsx")
 View(employees_data)
 summary(employees_data)
 str(employees_data)
